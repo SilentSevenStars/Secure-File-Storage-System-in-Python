@@ -26,6 +26,8 @@ The app has a clean, intuitive interface with support for:
 
 1. Clone this repository:
 https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python
+2. On terminal:
+pip install -r requirements.txt
 
 
 ## 🧭 Instructions
