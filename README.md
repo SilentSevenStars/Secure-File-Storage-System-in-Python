@@ -34,7 +34,7 @@ pip install -r requirements.txt
 1. Registration
 Click Register on the login screen.
 
-Enter Name, Username, and Password.
+Enter Name, Username, Password, and Confirm Password.
 
 Click Sign Up to create an account.
 
@@ -60,6 +60,13 @@ Click Open File to select files.
 Files are listed on screen with a remove (X) button.
 
 Click Encrypt to encrypt all listed files.
+
+Click Return to go back to home page.
+
+5. Decrypt Page
+Click Open File and select encrypt files.
+
+Files are listed on screen with a remove button.
 
 Click Return to go back to home page.
 
