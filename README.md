@@ -25,10 +25,8 @@ The app has a clean, intuitive interface with support for:
 ## 🔧 Installation
 
 1. Clone this repository:
+https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python
 
-```bash
-git clone https://github.com/yourusername/secure-file-vault.git
-cd secure-file-vault
 
 ## 🧭 Instructions
 1. Registration
