@@ -38,10 +38,14 @@ Enter Name, Username, Password, and Confirm Password.
 
 Click Sign Up to create an account.
 
+![image alt](https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python/blob/main/image/register.png?raw=true)
+
 2. Login
 Enter your Username and Password.
 
 Click Login to access the system.
+
+![image alt](https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python/blob/main/image/login.png?raw=true)
 
 3. Home Page
 Shows your name and username.
@@ -54,6 +58,8 @@ Decrypt File – select and decrypt a .enc file
 
 Logout – return to login page
 
+![image alt](https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python/blob/main/image/homepage.png?raw=true)
+
 4. Encrypt Page
 Click Open File to select files.
 
@@ -63,12 +69,16 @@ Click Encrypt to encrypt all listed files.
 
 Click Return to go back to home page.
 
+![image alt](https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python/blob/main/image/encrypt.png?raw=true)
+
 5. Decrypt Page
 Click Open File and select encrypt files.
 
 Files are listed on screen with a remove button.
 
 Click Return to go back to home page.
+
+![image alt](https://github.com/SilentSevenStars/Secure-File-Storage-System-in-Python/blob/main/image/decrypt.png?raw=true)
 
 ## 📝 Logs
 All activities are recorded in logs/vault_log.txt including login/logout, encryption, and decryption actions with timestamps.
