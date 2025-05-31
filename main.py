@@ -129,7 +129,7 @@ class SecureFileVaultApp:
             messagebox.showerror("Error", "Fields cannot be blank")
             return
         if password != confirm_password:
-            messagebox.showerror("Error", "Passwords do not match")
+            messagebox.showerror("Error", "Passwords and Confirm Password do not match")
             return
         if self.auth.register(username, password, name):
             messagebox.showinfo("Success", "User registered")
