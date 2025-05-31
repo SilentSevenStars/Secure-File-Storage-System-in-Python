@@ -29,3 +29,44 @@ The app has a clean, intuitive interface with support for:
 ```bash
 git clone https://github.com/yourusername/secure-file-vault.git
 cd secure-file-vault
+
+## 🧭 Instructions
+1. Registration
+Click Register on the login screen.
+
+Enter Name, Username, and Password.
+
+Click Sign Up to create an account.
+
+2. Login
+Enter your Username and Password.
+
+Click Login to access the system.
+
+3. Home Page
+Shows your name and username.
+
+Options:
+
+Encrypt File – navigate to encryption page
+
+Decrypt File – select and decrypt a .enc file
+
+Logout – return to login page
+
+4. Encrypt Page
+Click Open File to select files.
+
+Files are listed on screen with a remove (X) button.
+
+Click Encrypt to encrypt all listed files.
+
+Click Return to go back to home page.
+
+## 📝 Logs
+All activities are recorded in logs/vault_log.txt including login/logout, encryption, and decryption actions with timestamps.
+
+## 🔐 Encryption Details
+Uses cryptography.fernet.Fernet for symmetric key encryption.
+
+The encryption key is stored in .env file (auto-generated on first run).
